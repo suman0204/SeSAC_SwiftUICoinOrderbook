@@ -14,6 +14,8 @@
 		8B4FA2C52B0AFFF6008B3465 /* SwiftUICoinOrderbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FA2C42B0AFFF6008B3465 /* SwiftUICoinOrderbookTests.swift */; };
 		8B4FA2CF2B0AFFF6008B3465 /* SwiftUICoinOrderbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FA2CE2B0AFFF6008B3465 /* SwiftUICoinOrderbookUITests.swift */; };
 		8B4FA2D12B0AFFF6008B3465 /* SwiftUICoinOrderbookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FA2D02B0AFFF6008B3465 /* SwiftUICoinOrderbookUITestsLaunchTests.swift */; };
+		8B4FA2DF2B0B08FE008B3465 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FA2DD2B0B08FE008B3465 /* Money.swift */; };
+		8B4FA2E02B0B08FE008B3465 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FA2DE2B0B08FE008B3465 /* Banner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8B4FA2CA2B0AFFF6008B3465 /* SwiftUICoinOrderbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICoinOrderbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4FA2CE2B0AFFF6008B3465 /* SwiftUICoinOrderbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICoinOrderbookUITests.swift; sourceTree = "<group>"; };
 		8B4FA2D02B0AFFF6008B3465 /* SwiftUICoinOrderbookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICoinOrderbookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B4FA2DD2B0B08FE008B3465 /* Money.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		8B4FA2DE2B0B08FE008B3465 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				8B4FA2B32B0AFFF4008B3465 /* SwiftUICoinOrderbookApp.swift */,
 				8B4FA2B52B0AFFF4008B3465 /* ContentView.swift */,
+				8B4FA2DE2B0B08FE008B3465 /* Banner.swift */,
+				8B4FA2DD2B0B08FE008B3465 /* Money.swift */,
 				8B4FA2B72B0AFFF6008B3465 /* Assets.xcassets */,
 				8B4FA2B92B0AFFF6008B3465 /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4FA2DF2B0B08FE008B3465 /* Money.swift in Sources */,
+				8B4FA2E02B0B08FE008B3465 /* Banner.swift in Sources */,
 				8B4FA2B62B0AFFF4008B3465 /* ContentView.swift in Sources */,
 				8B4FA2B42B0AFFF4008B3465 /* SwiftUICoinOrderbookApp.swift in Sources */,
 			);
