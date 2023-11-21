@@ -16,6 +16,12 @@
 		8B4FA2D12B0AFFF6008B3465 /* SwiftUICoinOrderbookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FA2D02B0AFFF6008B3465 /* SwiftUICoinOrderbookUITestsLaunchTests.swift */; };
 		8B4FA2DF2B0B08FE008B3465 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FA2DD2B0B08FE008B3465 /* Money.swift */; };
 		8B4FA2E02B0B08FE008B3465 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4FA2DE2B0B08FE008B3465 /* Banner.swift */; };
+		8B9116F82B0C4A3C001A82DC /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9116F72B0C4A3C001A82DC /* OverlayView.swift */; };
+		8B9116FD2B0C4E9B001A82DC /* UpbitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9116FC2B0C4E9B001A82DC /* UpbitAPI.swift */; };
+		8B9116FF2B0C595A001A82DC /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9116FE2B0C595A001A82DC /* ContentViewModel.swift */; };
+		8B9117012B0C7338001A82DC /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9117002B0C7338001A82DC /* ListView.swift */; };
+		8B9117032B0C736A001A82DC /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9117022B0C736A001A82DC /* ListViewModel.swift */; };
+		8B9117052B0C809C001A82DC /* BannerTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9117042B0C809C001A82DC /* BannerTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,12 @@
 		8B4FA2D02B0AFFF6008B3465 /* SwiftUICoinOrderbookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICoinOrderbookUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8B4FA2DD2B0B08FE008B3465 /* Money.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 		8B4FA2DE2B0B08FE008B3465 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		8B9116F72B0C4A3C001A82DC /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		8B9116FC2B0C4E9B001A82DC /* UpbitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpbitAPI.swift; sourceTree = "<group>"; };
+		8B9116FE2B0C595A001A82DC /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		8B9117002B0C7338001A82DC /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		8B9117022B0C736A001A82DC /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		8B9117042B0C809C001A82DC /* BannerTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +110,17 @@
 		8B4FA2B22B0AFFF4008B3465 /* SwiftUICoinOrderbook */ = {
 			isa = PBXGroup;
 			children = (
+				8B9116FB2B0C4E89001A82DC /* Network */,
+				8B9116F62B0C436E001A82DC /* Model */,
 				8B4FA2B32B0AFFF4008B3465 /* SwiftUICoinOrderbookApp.swift */,
-				8B4FA2B52B0AFFF4008B3465 /* ContentView.swift */,
-				8B4FA2DE2B0B08FE008B3465 /* Banner.swift */,
-				8B4FA2DD2B0B08FE008B3465 /* Money.swift */,
 				8B4FA2B72B0AFFF6008B3465 /* Assets.xcassets */,
+				8B4FA2B52B0AFFF4008B3465 /* ContentView.swift */,
+				8B9116FE2B0C595A001A82DC /* ContentViewModel.swift */,
 				8B4FA2B92B0AFFF6008B3465 /* Preview Content */,
+				8B9116F72B0C4A3C001A82DC /* OverlayView.swift */,
+				8B9117002B0C7338001A82DC /* ListView.swift */,
+				8B9117022B0C736A001A82DC /* ListViewModel.swift */,
+				8B9117042B0C809C001A82DC /* BannerTestView.swift */,
 			);
 			path = SwiftUICoinOrderbook;
 			sourceTree = "<group>";
@@ -131,6 +148,23 @@
 				8B4FA2D02B0AFFF6008B3465 /* SwiftUICoinOrderbookUITestsLaunchTests.swift */,
 			);
 			path = SwiftUICoinOrderbookUITests;
+			sourceTree = "<group>";
+		};
+		8B9116F62B0C436E001A82DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B4FA2DE2B0B08FE008B3465 /* Banner.swift */,
+				8B4FA2DD2B0B08FE008B3465 /* Money.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B9116FB2B0C4E89001A82DC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8B9116FC2B0C4E9B001A82DC /* UpbitAPI.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +297,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B9117012B0C7338001A82DC /* ListView.swift in Sources */,
 				8B4FA2DF2B0B08FE008B3465 /* Money.swift in Sources */,
+				8B9116FD2B0C4E9B001A82DC /* UpbitAPI.swift in Sources */,
 				8B4FA2E02B0B08FE008B3465 /* Banner.swift in Sources */,
+				8B9116FF2B0C595A001A82DC /* ContentViewModel.swift in Sources */,
+				8B9117032B0C736A001A82DC /* ListViewModel.swift in Sources */,
 				8B4FA2B62B0AFFF4008B3465 /* ContentView.swift in Sources */,
 				8B4FA2B42B0AFFF4008B3465 /* SwiftUICoinOrderbookApp.swift in Sources */,
+				8B9117052B0C809C001A82DC /* BannerTestView.swift in Sources */,
+				8B9116F82B0C4A3C001A82DC /* OverlayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
