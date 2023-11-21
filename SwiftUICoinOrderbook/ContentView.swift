@@ -21,20 +21,21 @@ struct ContentView: View {
                 Text("테스트: \(renderingTestNumber)")
                 NavigationLink("배너 테스트", value: renderingTestNumber)
                 VStack {
-                    ScrollView(.horizontal) {
-                        LazyHStack {
-                            ForEach(1..<5) { data in
-                                bannerView()
-                                    .containerRelativeFrame(.horizontal)
+//                    ScrollView(.horizontal) {
+//                        LazyHStack {
+//                            ForEach(1..<5) { data in
+//                                bannerView()
+                                BannerView()
+//                                    .containerRelativeFrame(.horizontal)
                                     .onTapGesture {
                                         viewModel.fetchBanner()
                                     }
-                            }
-                        }
+//                            }
+//                        }
                         //스크롤 하고자 하는 대상에 대한 레이아웃 설정
-                        .scrollTargetLayout()
-                    }
-                    .scrollTargetBehavior(.viewAligned)
+//                        .scrollTargetLayout()
+//                    }
+//                    .scrollTargetBehavior(.viewAligned)
 //                    .safeAreaPadding([.horizontal], 40)
   
                     ListView()

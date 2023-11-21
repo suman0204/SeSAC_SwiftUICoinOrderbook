@@ -22,6 +22,8 @@
 		8B9117012B0C7338001A82DC /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9117002B0C7338001A82DC /* ListView.swift */; };
 		8B9117032B0C736A001A82DC /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9117022B0C736A001A82DC /* ListViewModel.swift */; };
 		8B9117052B0C809C001A82DC /* BannerTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9117042B0C809C001A82DC /* BannerTestView.swift */; };
+		8B9117072B0CF37D001A82DC /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9117062B0CF37D001A82DC /* BannerView.swift */; };
+		8B9117092B0CF494001A82DC /* BannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9117082B0CF494001A82DC /* BannerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		8B9117002B0C7338001A82DC /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		8B9117022B0C736A001A82DC /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		8B9117042B0C809C001A82DC /* BannerTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTestView.swift; sourceTree = "<group>"; };
+		8B9117062B0CF37D001A82DC /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		8B9117082B0CF494001A82DC /* BannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				8B9117002B0C7338001A82DC /* ListView.swift */,
 				8B9117022B0C736A001A82DC /* ListViewModel.swift */,
 				8B9117042B0C809C001A82DC /* BannerTestView.swift */,
+				8B9117062B0CF37D001A82DC /* BannerView.swift */,
+				8B9117082B0CF494001A82DC /* BannerViewModel.swift */,
 			);
 			path = SwiftUICoinOrderbook;
 			sourceTree = "<group>";
@@ -299,12 +305,14 @@
 			files = (
 				8B9117012B0C7338001A82DC /* ListView.swift in Sources */,
 				8B4FA2DF2B0B08FE008B3465 /* Money.swift in Sources */,
+				8B9117092B0CF494001A82DC /* BannerViewModel.swift in Sources */,
 				8B9116FD2B0C4E9B001A82DC /* UpbitAPI.swift in Sources */,
 				8B4FA2E02B0B08FE008B3465 /* Banner.swift in Sources */,
 				8B9116FF2B0C595A001A82DC /* ContentViewModel.swift in Sources */,
 				8B9117032B0C736A001A82DC /* ListViewModel.swift in Sources */,
 				8B4FA2B62B0AFFF4008B3465 /* ContentView.swift in Sources */,
 				8B4FA2B42B0AFFF4008B3465 /* SwiftUICoinOrderbookApp.swift in Sources */,
+				8B9117072B0CF37D001A82DC /* BannerView.swift in Sources */,
 				8B9117052B0C809C001A82DC /* BannerTestView.swift in Sources */,
 				8B9116F82B0C4A3C001A82DC /* OverlayView.swift in Sources */,
 			);
