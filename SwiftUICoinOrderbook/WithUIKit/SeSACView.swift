@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct SeSACView: View {
+    
+    @State private var textFieldText = "SwiftUI 텍스트"
+    
+    @State private var uiKitTextFieldText = "UIKit 텍스트"
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(textFieldText)
+            TextField("SwiftUI 텍스트필드입니다", text: $textFieldText)
+            
+            VStack {
+                Text(uiKitTextFieldText)
+                MyTextField(text: $uiKitTextFieldText)
+            }
+            .background(.gray)
+            .padding()
+            
+            MyWebView(url: "https://www.apple.com")
+        }
     }
 }
 
