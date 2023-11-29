@@ -19,23 +19,29 @@ struct ListView: View {
                 viewModel.fetchAllMarket()
             }
             ForEach(viewModel.maket, id: \.self) { item in
-                HStack {
-                    VStack(alignment: .leading) {
-                        Text(item.korean)
-                            .fontWeight(.bold)
-                        Text(item.english)
-                            .font(.caption)
-                            .foregroundStyle(.gray)
+                NavigationLink(value: item) {
+                    HStack {
+                        VStack(alignment: .leading) {
+                            Text(item.korean)
+                                .fontWeight(.bold)
+                            Text(item.english)
+                                .font(.caption)
+                                .foregroundStyle(.gray)
+                        }
+                        Spacer()
+                        Text(item.market)
                     }
-                    Spacer()
-                    Text(item.market)
+                    .padding()
                 }
-                .padding()
             }
         }
         .onAppear {
             print("ListView onAppear")
 //            viewModel.fetchAllMarket()
+        }
+        .navigationDestination(for: Market.self) { item in
+            let viewModel = HorizontalViewModel(market: item)
+            HorizontalView(viewModel: viewModel)
         }
     }
 }

@@ -22,6 +22,7 @@
 		8B5B83302B143360009E2CBB /* HorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B832F2B143360009E2CBB /* HorizontalView.swift */; };
 		8B5B83322B143577009E2CBB /* HorizontalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B83312B143577009E2CBB /* HorizontalData.swift */; };
 		8B5B83342B143C68009E2CBB /* HorizontalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B83332B143C68009E2CBB /* HorizontalViewModel.swift */; };
+		8B702C262B157F4100A79DAF /* OrderBookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B702C252B157F4100A79DAF /* OrderBookModel.swift */; };
 		8B9116F82B0C4A3C001A82DC /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9116F72B0C4A3C001A82DC /* OverlayView.swift */; };
 		8B9116FD2B0C4E9B001A82DC /* UpbitAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9116FC2B0C4E9B001A82DC /* UpbitAPI.swift */; };
 		8B9116FF2B0C595A001A82DC /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9116FE2B0C595A001A82DC /* ContentViewModel.swift */; };
@@ -71,6 +72,7 @@
 		8B5B832F2B143360009E2CBB /* HorizontalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalView.swift; sourceTree = "<group>"; };
 		8B5B83312B143577009E2CBB /* HorizontalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalData.swift; sourceTree = "<group>"; };
 		8B5B83332B143C68009E2CBB /* HorizontalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalViewModel.swift; sourceTree = "<group>"; };
+		8B702C252B157F4100A79DAF /* OrderBookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBookModel.swift; sourceTree = "<group>"; };
 		8B9116F72B0C4A3C001A82DC /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 		8B9116FC2B0C4E9B001A82DC /* UpbitAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpbitAPI.swift; sourceTree = "<group>"; };
 		8B9116FE2B0C595A001A82DC /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				8B5B832F2B143360009E2CBB /* HorizontalView.swift */,
 				8B5B83312B143577009E2CBB /* HorizontalData.swift */,
 				8B5B83332B143C68009E2CBB /* HorizontalViewModel.swift */,
+				8B702C252B157F4100A79DAF /* OrderBookModel.swift */,
 			);
 			path = Horizontal;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				8B5B832D2B142199009E2CBB /* MyTextField.swift in Sources */,
 				8B4FA2DF2B0B08FE008B3465 /* Money.swift in Sources */,
 				8B5B83292B141D92009E2CBB /* SeSACView.swift in Sources */,
+				8B702C262B157F4100A79DAF /* OrderBookModel.swift in Sources */,
 				8B9117092B0CF494001A82DC /* BannerViewModel.swift in Sources */,
 				8B9116FD2B0C4E9B001A82DC /* UpbitAPI.swift in Sources */,
 				8B4FA2E02B0B08FE008B3465 /* Banner.swift in Sources */,
