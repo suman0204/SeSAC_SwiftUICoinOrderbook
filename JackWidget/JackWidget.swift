@@ -49,6 +49,22 @@ struct JackWidgetEntryView : View {
 
             Text("Emoji:")
             Text(entry.emoji)
+            
+            HStack {
+                Link(destination: URL(string: "History")!, label: {
+                    Image(systemName: "book")
+                        .frame(width: 30, height: 30)
+                        .background(.white.opacity(0.3))
+                        .clipShape(Circle())
+                })
+                
+                Link(destination: URL(string: "Favorite")!, label: {
+                    Image(systemName: "star")
+                        .frame(width: 30, height: 30)
+                        .background(.white.opacity(0.3))
+                        .clipShape(Circle())
+                })
+            }
         }
     }
 }
@@ -67,8 +83,9 @@ struct JackWidget: Widget {
                     .background()
             }
         }
-        .configurationDisplayName("My Widget")
-        .description("This is an example widget.")
+        .configurationDisplayName("위젯 링크 테스트")
+        .description("내가 위젯이다")
+        .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
     }
 }
 

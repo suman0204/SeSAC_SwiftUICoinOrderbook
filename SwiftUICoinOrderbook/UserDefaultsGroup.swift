@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+extension UserDefaults {
+    
+    static var groupShared: UserDefaults {
+        let appGroupID = "group.SoomanHong.SwiftUICoinOrderbook.MyWallet"
+        return UserDefaults(suiteName: appGroupID)!
+    }
+}
